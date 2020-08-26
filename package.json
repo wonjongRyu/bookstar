@@ -4,7 +4,7 @@
   "description": "Instagram Clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +17,16 @@
   },
   "homepage": "https://github.com/wonjongRyu/bookstar#readme",
   "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
     "babel-node": "0.0.1-security",
-    "graphql-yoga": "^1.18.3"
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "nodemon": "^2.0.4"
-  },
-  "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
   }
 }
