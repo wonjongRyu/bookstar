@@ -1,0 +1,30 @@
+{
+  "name": "bookstar",
+  "version": "1.0.0",
+  "description": "Instagram Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonjongRyu/bookstar.git"
+  },
+  "author": "wonjongRyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonjongRyu/bookstar/issues"
+  },
+  "homepage": "https://github.com/wonjongRyu/bookstar#readme",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
