@@ -3,13 +3,13 @@ require("dotenv").config();
 
 import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
-import schema from "./schema"
+import schema from "./schema";
 
 // set the PORT
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 9000;
 
-// creat server 
-// GraphQLServer needs props including typeDefs and resolvers as args 
+// creat server
+// GraphQLServer needs props including typeDefs and resolvers as args
 const server = new GraphQLServer({ schema });
 
 // Print Log. Express server is built in GraphQLServer
