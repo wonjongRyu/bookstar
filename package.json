@@ -4,6 +4,7 @@
   "description": "Instagram Clone",
   "main": "index.js",
   "scripts": {
+    "deploy": "prisma deploy",
     "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
